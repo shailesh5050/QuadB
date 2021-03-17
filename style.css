@@ -213,3 +213,214 @@ nav.upper-nav .container .right a:nth-child(n+2){
     height: 400px;
     background: lightgreen;
 }
+
+.footer{
+    width: 100%;
+    padding: 20px 30px;
+    background-image: url('./foot.jpg');
+    background-color: #111111;
+}
+.footer .container .left{
+   width: 50%;
+   margin-right: 200px; 
+    
+}
+.footer .container{
+    padding: 20px 20px 0 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer .container .left .sec .lists{
+    display: flex;
+    justify-content: space-between;
+}
+.footer .container .left .sec .lists ul{
+    list-style: none;
+}
+.footer .container .left .sec .lists ul li a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    transition: .3s all;
+}
+.footer .container .left .sec .lists ul li a:hover{
+    color: #476157;
+    transition: .3s all;
+}
+.footer .container .left .sec .lists ul li{
+    margin-bottom: 8px;
+}
+.footer .container .left .sec h6{
+    font-size: 12px;
+    margin: 20px 10px;
+    position: relative;
+    color: #fff;
+}
+.footer .container .left .sec h6::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    margin-left: 10px;
+    width: 80%;
+    height: 1px;
+    
+    background: #333333;
+}
+.footer .container .left .sec h6::before{
+    content: '';
+    position: absolute;
+    left: -15px;
+    top: 50%;
+   margin-right: 15px!important;
+    width: 10px;
+    height: 1px;
+    
+    background: #333333;
+}
+.copy-right{
+    width: 100%;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: center;
+}
+.main .container{
+    padding: 30px 155px;
+    display: flex;
+    
+}
+.main .container .left{
+   margin-right: 30px;
+    width: 60%;
+}
+.main  h1{
+    font-size: 28px;
+    padding: 0px 155px;
+    position: relative;
+}
+.main  h1::after{
+    bottom: 0;
+    position: absolute;
+    left: 150px;
+    padding: 0px 155px;
+    content: '';
+    width: 53%;
+    height: 2px;
+    background: #000;
+}
+.main .container .left{
+    margin-top: 30px;
+}
+.main .container .news a h3{
+    font-size: 18px;
+}
+.main .container .news a{
+    display: flex;
+    text-decoration: none;
+    color: #000;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+   border-bottom: 1px solid #E3E3E3;
+}
+.main .container .news h3,p{
+    margin-left: 15px;
+}
+.main .container .news p{
+    font-size: 13px;
+    margin-top: 5px;
+}
+.main .container .news img{
+    width: 140px;
+    height: 85px;
+}
+.main .container .right .tabs ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+.main .container .right .tabs ul li{
+    background: #BABABA;
+    padding: 8px 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: .3s all;
+}
+.main .container .right .tabs ul li:hover{
+    background: #000;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+.main .container .right .tabs{
+    border-bottom: 3px solid #000;
+}
+.main .container .right{
+   width: 35%;
+}
+.main .container .right .tab-data{
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+.main .container .right .tab-data div{
+    display: none;
+}
+.main .container .right .tab-data a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    border-bottom: 1px solid #BABABA;
+    display: block;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+}
+#share{
+    display: block;
+}
+#share-tab{
+    background-color: #000;
+}
+.main .container .right{
+    margin-top: 25px;
+}
+.main .container .right .right-box {
+    display: flex;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #BABABA;
+}
+.main .container .right .right-box img{
+    width: 90px;
+    height: 70px;
+    margin-right: 10px;
+}
+.main .container .right .right-box h5{
+    font-size: 12px;
+}
+.main .container .right h3{
+    position: relative;
+}
+.main .container .right h4{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.main .container .right h3::before{
+    top: 20px;
+    content: '';
+    position: absolute;
+    width: 98%;
+    margin-top: 5px;
+    height: 3px;
+    margin-bottom: 10px;
+    background-color: #000;
+}
+.main .container .right a{
+    display: block;
+    text-decoration: none;
+    color: #474646;
+}
+nav.bottom-nav{
+    position:sticky;
+}
